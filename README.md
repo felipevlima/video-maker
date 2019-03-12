@@ -5,4 +5,4 @@
 
 [![NPM](https://nodei.co/npm/algorithmia.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/algorithmia/)
 
-Projeto Open-Source para fazer videos automatizados
+Projeto Open-Source para fazer videos automatizados com Watson + Algorithmia! Projeto criado a partir dos video do Filipe Deschamps!
