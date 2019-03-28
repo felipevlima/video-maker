@@ -1,8 +1,8 @@
 const algorithmia = require('algorithmia')
-const algorithmiaApiKey = require('../credentials/algorithmia.json').apiKey
+const algorithmiaApiKey = require('../credentials/algorithmia.json').apikey
 const sentenceBoundaryDetection = require('sbd')
 
-const watsonApiKey = require('../credentials/watson-nlu.json').apiKey
+const watsonApiKey = require('../credentials/watson-nlu.json').apikey
 const NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-language-understanding/v1.js')
  
 const nlu = new NaturalLanguageUnderstandingV1({
@@ -88,7 +88,7 @@ async function robot(content) {
                 }
     
                 const keywords = response.keywords.map((keywords) =>{
-                    return keyword.text
+                    return keywords.text
                 })
     
                 resolve(keywords)
